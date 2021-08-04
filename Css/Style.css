@@ -1,0 +1,498 @@
+/*Start main rules*/
+
+body {
+  font-family: sans-serif, "Oswald";
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*Start main rules*/
+
+/* Start Header*/
+
+.header .slider {
+  margin: 0;
+  background-color: #eee;
+  background-size: cover;
+  background-image: url(../images/lap.jpg);
+  height: 560px;
+}
+.header .slider .intro {
+  height: 600px;
+  text-align: center;
+  padding-top: 200px;
+  text-transform: uppercase;
+}
+.header .slider .intro h2 {
+  margin: 0 auto;
+  color: #fff;
+  font-size: 40px;
+  width: 600px;
+  padding: 5px 0;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+.header .slider .intro > button {
+  margin: 30px auto;
+  padding: 10px;
+  width: 150px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+  background: none;
+}
+
+.header .navbar {
+  background-color: #252f31;
+  color: #fff;
+  overflow: hidden;
+}
+
+.header .navbar h2:first-letter {
+  font-size: 23px;
+  font-weight: 700;
+  color: #d4d8d9;
+  background-color: #4e585a;
+  padding: 0 5px;
+  margin: 5px 10px 0 0;
+  border-radius: 3px;
+  display: block;
+}
+.header .navbar h2 {
+  color: #fff;
+}
+
+.header .navbar h2 span {
+  color: #2dcc70;
+}
+
+.header .navbar ul {
+  list-style: none;
+  float: right;
+  padding-left: 0;
+  overflow: hidden;
+  text-transform: capitalize;
+}
+.header .navbar ul li {
+  float: left;
+  padding: 10px;
+}
+
+.header .navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+  color: #2dcc70;
+  color: #30b576;
+}
+
+/*End Header*/
+
+/*Start Features*/
+.features {
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.features .feat {
+  width: 33.333333%;
+  height: 150px;
+}
+/*End Features*/
+
+/*Start About Me*/
+
+.about-me {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.about-me .image {
+  width: 40%;
+}
+
+.about-me .image > img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-me .info {
+  width: 60%;
+}
+
+.about-me .info h2 {
+  margin: 40px 0 20px 40px;
+}
+
+.about-me .info > p {
+  margin: 0 0 10px 40px;
+}
+
+.about-me .info > p:last-of-type {
+  margin-top: 20px;
+}
+
+.about-me .info .hobbies {
+  margin: 20px 0 0 40px;
+  overflow: hidden;
+}
+
+.about-me .info .hobbies .content {
+  width: 50%;
+  overflow: hidden;
+}
+
+.about-me .info .hobbies .content .icon {
+  width: 12%;
+}
+
+.about-me .info .hobbies .content .icon i {
+  color: #2dcc70;
+  margin: 20px 10px 0 0;
+}
+
+.about-me .info .hobbies .content .text {
+  width: 83%;
+}
+
+.about-me .info .hobbies .content .text h3 {
+  margin: 15px 0 5px 10px;
+}
+
+.about-me .info .hobbies p {
+  margin: 0 0 5px 10px;
+}
+
+/*End About Me*/
+
+/*Start My Skills*/
+
+.my-skills {
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.my-skills .skills,
+.my-skills .progress {
+  width: 50%;
+}
+
+.my-skills .skills h2 {
+  margin: 25px 0 20px 40px;
+}
+
+.my-skills .skills > p {
+  margin: 0 0 10px 40px;
+}
+
+.my-skills .skills > p:last-of-type {
+  margin-top: 30px;
+}
+
+.my-skills .skills button {
+  padding: 10px 30px;
+  margin: 20px 0 0 40px;
+}
+
+.my-skills .progress .technique {
+  margin-left: 50px;
+}
+
+.my-skills .progress .technique > div {
+  background-color: #f2f2f2;
+  height: 25px;
+}
+
+.my-skills .progress .technique span {
+  background-color: #2dcc70;
+  height: 25px;
+  display: block;
+  line-height: 25px;
+  text-align: right;
+  font-weight: bold;
+  color: #fff;
+}
+/*End My Skills*/
+
+/*start resume*/
+.resume {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f2f2f2;
+}
+
+.resume button {
+  padding: 10px;
+  margin: 20px;
+}
+
+/*end resume*/
+
+/*Start My Education*/ /*Start Work Experience*/
+
+.my-education {
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.my-education hr {
+  background-color: #928f8f;
+  border: 0;
+  height: 1px;
+}
+
+.my-education .main {
+  width: 50%;
+  margin-right: 5%;
+}
+
+.my-education .exp {
+  width: 45%;
+}
+
+.my-education .main h2 {
+  margin: 25px 0 20px 40px;
+}
+
+.my-education .main p {
+  margin: 0 0 10px 40px;
+}
+
+.my-education .main > p:last-of-type {
+  margin-top: 30px;
+}
+
+.my-education .exp h3 {
+  margin-top: 75px;
+  margin-bottom: 8px;
+}
+
+.my-education .exp span {
+  text-transform: capitalize;
+  color: #928f8f;
+  margin-bottom: 8px;
+}
+
+.my-education .exp > div {
+  color: #f2f2f2;
+  padding: 5px 10px;
+  margin-top: 8px;
+  margin-bottom: 25px;
+  width: 60px;
+  text-transform: capitalize;
+  background-color: #2dcc70;
+}
+
+/*End My Education*/ /* End Work Experience*/
+
+/*Start Testimonials*/
+
+.testimonials {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.testimonials q {
+  color: #928f8f;
+  font: italic bold 18px/1.5 Arail, Tahomaa;
+}
+
+.testimonials h3 {
+  margin-bottom: 30px;
+}
+
+.testimonials ul {
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.testimonials ul li {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 90%;
+  border: 1px solid #2dcc70;
+}
+
+.testimonials ul li.active,
+.testimonials ul li:hover {
+  background-color: #2dcc70;
+}
+
+/*End Testimonials */
+
+/* Start Portfolio*/
+.portfolio {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.portfolio p {
+  padding-bottom: 30px;
+}
+
+.portfolio .my-projects {
+  overflow: hidden;
+}
+
+.portfolio .my-projects > div {
+  float: left;
+  width: 33.33333%;
+  margin-bottom: 15px;
+}
+
+.portfolio .my-projects > div img {
+  width: 94%;
+  margin: 10px;
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Start Portfolio*/
+
+/* Start Contact*/
+.contact {
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background-color: #252f31;
+}
+.contact .info {
+  width: 50%;
+  margin-right: 5%;
+}
+.contact .form {
+  width: 45%;
+  margin-top: 30px;
+}
+.contact .info h2 {
+  color: #fff;
+  margin-left: 40px;
+}
+.contact .info p {
+  color: #6a6e71;
+  margin: 10px 0 0 40px;
+}
+.contact .info p strong {
+  color: #d1d6da;
+}
+
+.contact .form label {
+  color: #fff;
+  display: block;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+
+.contact .form input[type="text"],
+[type="email address"] {
+  border: 0;
+  color: #fff;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #4b5557;
+}
+.contact .form textarea {
+  border: 0;
+  color: #fff;
+  width: 80%;
+  padding: 10px;
+  height: 200px;
+  margin-bottom: 10px;
+  background-color: #4b5557;
+}
+
+.contact .form input[type="submit"] {
+  color: #fff;
+  border: 0;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #191e22;
+}
+/* End Contact*/
+
+/* Start Footer*/
+.footer {
+  background-color: #191e22;
+  padding: 30px 0;
+}
+
+.footer span {
+  color: #6a6e71;
+  text-transform: capitalize;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 15px 0 0;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+.footer ul li img {
+  background-color: #6a6e71;
+  color: #191e22;
+  border-radius: 90%;
+  margin-right: 8px;
+  padding: 3px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.footer ul li :hover {
+  background-color: #4b5356;
+}
+
+/* End Footer*/
+
+/* Start My Framrwork*/
+.my-button {
+  color: #2ecc71;
+  border: 3px solid #2ecc71;
+  text-transform: capitalize;
+  background: none;
+  font-weight: bold;
+}
+.fl-float {
+  float: left;
+}
+
+p {
+  color: #928f8f;
+  line-height: 1.5;
+}
+
+h2,
+h3 {
+  text-transform: uppercase;
+  color: #777;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Start My Framrwork*/
